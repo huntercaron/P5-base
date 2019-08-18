@@ -161,7 +161,7 @@
 
             ],
             "clip" : true,
-            "codeComponentIdentifier" : ".\/Sketch1.tsx_SketchWrapper",
+            "codeComponentIdentifier" : ".\/Starter.tsx_P5Sketch",
             "codeComponentProps" : {
 
             },
@@ -169,14 +169,7 @@
             "constraintsLocked" : false,
             "deviceType" : null,
             "exportOptions" : [
-              {
-                "__class" : "ExportOptions",
-                "enabled" : true,
-                "nameExtension" : "",
-                "nameExtensionMode" : "Suffix",
-                "scale" : 1,
-                "type" : "png"
-              }
+
             ],
             "fillColor" : "rgba(255,255,255,1)",
             "fillEnabled" : false,
@@ -187,7 +180,7 @@
             "fillType" : "color",
             "height" : 600,
             "heightType" : 0,
-            "id" : "oKY7hochJ",
+            "id" : "CsUoYKIdk",
             "intrinsicHeight" : 600,
             "intrinsicWidth" : 600,
             "left" : 0,
@@ -262,6 +255,59 @@
         "right" : null,
         "rotation" : 0,
         "top" : -68,
+        "visible" : true,
+        "width" : 600,
+        "widthType" : 0
+      },
+      {
+        "__class" : "CodeComponentNode",
+        "aspectRatio" : null,
+        "bottom" : null,
+        "centerAnchorX" : 0,
+        "centerAnchorY" : 0,
+        "children" : [
+
+        ],
+        "clip" : true,
+        "codeComponentIdentifier" : ".\/P5_base.tsx_P5Base",
+        "codeComponentProps" : {
+          "backgroundColor" : "none"
+        },
+        "codeOverrideEnabled" : false,
+        "constraintsLocked" : false,
+        "deviceType" : null,
+        "exportOptions" : [
+
+        ],
+        "fillColor" : "rgba(255,255,255,1)",
+        "fillEnabled" : false,
+        "fillImage" : null,
+        "fillImagePixelHeight" : null,
+        "fillImagePixelWidth" : null,
+        "fillImageResize" : "fill",
+        "fillType" : "color",
+        "height" : 600,
+        "heightType" : 0,
+        "id" : "rKsZRB10f",
+        "intrinsicHeight" : 600,
+        "intrinsicWidth" : 600,
+        "left" : 1608,
+        "locked" : false,
+        "name" : null,
+        "opacity" : 1,
+        "originalid" : null,
+        "parentid" : "gFIVXwR1h",
+        "previewSettings" : null,
+        "radius" : 0,
+        "radiusBottomLeft" : 0,
+        "radiusBottomRight" : 0,
+        "radiusIsRelative" : false,
+        "radiusPerCorner" : false,
+        "radiusTopLeft" : 0,
+        "radiusTopRight" : 0,
+        "right" : null,
+        "rotation" : 0,
+        "top" : -77,
         "visible" : true,
         "width" : 600,
         "widthType" : 0

@@ -28,7 +28,7 @@ function download(filename, text) {
 
 */
 
-export function P5(props) {
+function P5(props) {
     const { sketch = defaultSketch } = props
     const downloadRef = React.useRef(null)
     const downloadFile = () => {

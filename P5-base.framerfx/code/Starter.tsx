@@ -16,9 +16,9 @@ const sketch = {
     },
 }
 
-export const SketchWrapper = () => <P5Base sketch={sketch} />
+export const P5Sketch = props => <P5Base {...props} sketch={sketch} />
 
-SketchWrapper.defaultProps = {
+P5Sketch.defaultProps = {
     width: 600,
     height: 600,
 }

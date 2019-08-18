@@ -9,11 +9,14 @@
 		"react": "^16.8"
 	},
 	"framer": {
-		"id": "1f682fcb-4578-4a90-a33c-7d8a36c43083"
+		"id": "1f682fcb-4578-4a90-a33c-7d8a36c43083",
+		"displayName": "P5 Base"
 	},
 	"author": "Hunter Caron",
 	"dependencies": {
 		"p5": "^0.9.0",
 		"react-p5-wrapper": "^2.0.0"
-	}
+	},
+	"name": "@framer/hunterc.p5-base",
+	"version": "1.0.0"
 }
