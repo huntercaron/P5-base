@@ -96,8 +96,19 @@ function download(filename, text) {
 
 */
 
-const defaultSketch = s => {
-    s.draw = () => {}
+const defaultSketch = {
+    setup: s => {
+        s.createCanvas(600, 600)
+        s.fill(255)
+        s.rect(0, 0, 10, 10)
+    },
+    draw: s => {
+        s.fill(255)
+        s.rect(0, 0, 10, 10)
+        s.rect(0, 0, 100, 100)
+        s.rect(100, 100, 100, 100)
+        s.ellipse(s.mouseX, s.mouseY, 80, 80)
+    },
 }
 
 function P5Wrapper(props) {
@@ -116,10 +127,20 @@ function P5Wrapper(props) {
     return <div ref={wrapperEl} />
 }
 
-export function P5Base(props, sketch = defaultSketch) {
+export function P5Base(props) {
+    const { sketch = defaultSketch } = props
+    const composedSketch = s => {
+        s.setup = () => {
+            sketch.setup(s)
+        }
+        s.draw = () => {
+            sketch.draw(s)
+            if (RenderTarget.current() === RenderTarget.canvas) s.noLoop()
+        }
+    }
     return (
         <Frame {...props}>
-            <P5Wrapper sketch={sketch} {...props} />
+            <P5Wrapper sketch={composedSketch} />
         </Frame>
     )
 }

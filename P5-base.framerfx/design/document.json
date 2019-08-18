@@ -169,7 +169,14 @@
             "constraintsLocked" : false,
             "deviceType" : null,
             "exportOptions" : [
-
+              {
+                "__class" : "ExportOptions",
+                "enabled" : true,
+                "nameExtension" : "",
+                "nameExtensionMode" : "Suffix",
+                "scale" : 1,
+                "type" : "png"
+              }
             ],
             "fillColor" : "rgba(255,255,255,1)",
             "fillEnabled" : false,
@@ -180,7 +187,7 @@
             "fillType" : "color",
             "height" : 600,
             "heightType" : 0,
-            "id" : "EMi1GQcH8",
+            "id" : "oKY7hochJ",
             "intrinsicHeight" : 600,
             "intrinsicWidth" : 600,
             "left" : 0,
