@@ -13,37 +13,31 @@ import p5 = require("p5")
 const defaultSketch = {
     setup: s => {
         s.createCanvas(600, 600)
-        s.fill(255)
-        s.rect(0, 0, 10, 10)
     },
     draw: s => {
-        s.fill(255)
-        s.rect(0, 0, 10, 10)
-        s.rect(0, 0, 100, 100)
-        s.rect(100, 100, 100, 100)
-        s.ellipse(s.mouseX, s.mouseY, 80, 80)
+        s.noStroke()
+        s.ellipse(600 / 2, 600 / 2, 100, 100)
     },
 }
 
 function P5Wrapper(props) {
     const { sketch = defaultSketch } = props
     const wrapperEl = useRef()
+    const sketchInstance = useRef()
 
     const addSketch = () => {
-        const sketchInstance = new p5(sketch, wrapperEl.current)
+        sketchInstance.current = new p5(sketch, wrapperEl.current)
     }
 
-    const removeChildren = () => {
+    const removeSketch = () => {
         //@ts-ignore
-        while (wrapperEl.current.firstChild) {
-            //@ts-ignore
-            wrapperEl.current.removeChild(wrapperEl.current.firstChild)
-        }
+        if (sketchInstance.current) sketchInstance.current.remove()
     }
 
     useEffect(() => {
+        removeSketch()
         addSketch()
-        return () => removeChildren()
+        return () => removeSketch()
     })
 
     return <div ref={wrapperEl} />
