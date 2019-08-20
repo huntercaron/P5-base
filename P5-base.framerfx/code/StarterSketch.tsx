@@ -1,9 +1,10 @@
 import * as React from "react"
-import { P5Base } from "./P5_base"
+//@ts-ignore
+import { P5Base } from "p5-framer-base"
 import { transform, Color } from "framer"
 
-const canvasSize = 1000
-const gridSize = 40
+const gridSize = 24
+const padding = 40
 
 const sketch = {
     setup: (s, { width, height }) => {
@@ -11,10 +12,8 @@ const sketch = {
         s.noStroke()
         s.pixelDensity(2)
     },
-    draw: s => {
-        s.fill(0)
-        s.rect(0, 0, canvasSize, canvasSize)
-        s.fill(25, 182, 84)
+    draw: (s, { width, height }) => {
+        s.clear()
 
         const color1 = Color("rgb(45, 200, 48)")
         const color2 = Color("rgb(15, 255, 219)")
@@ -27,8 +26,8 @@ const sketch = {
 
                 s.fill(Color.toRgbString(blend(v)))
 
-                const tx = u * canvasSize
-                const ty = v * canvasSize
+                const tx = transform(u, [0, 1], [padding, width - padding])
+                const ty = transform(v, [0, 1], [padding, height - padding])
 
                 s.push()
                 s.translate(tx, ty)
@@ -37,7 +36,7 @@ const sketch = {
                         s.sin((s.frameCount + 400) * 0.03) *
                         10
                 )
-                s.rect(0, 0, 8, 14)
+                s.rect(0, 0, 6, 14)
                 s.pop()
             }
         }
@@ -47,6 +46,6 @@ const sketch = {
 export const StarterSketch = props => <P5Base {...props} sketch={sketch} />
 
 StarterSketch.defaultProps = {
-    width: canvasSize,
-    height: canvasSize,
+    width: 500,
+    height: 500,
 }

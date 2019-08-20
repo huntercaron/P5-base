@@ -12,211 +12,6 @@
         "centerAnchorY" : 0,
         "children" : [
           {
-            "__class" : "FrameNode",
-            "aspectRatio" : null,
-            "blendingEnabled" : 0,
-            "blendingMode" : "normal",
-            "bottom" : null,
-            "centerAnchorX" : 0.45583333333333331,
-            "centerAnchorY" : 0.4325,
-            "children" : [
-
-            ],
-            "clip" : false,
-            "codeOverrideEnabled" : true,
-            "codeOverrideFile" : ".\/App.tsx",
-            "codeOverrideIdentifier" : ".\/App.tsx_Scale",
-            "codeOverrideName" : "Scale",
-            "constraintsLocked" : false,
-            "deviceType" : null,
-            "exportOptions" : [
-
-            ],
-            "fillColor" : "rgba(0, 153, 255, 0.5)",
-            "fillEnabled" : true,
-            "fillImage" : null,
-            "fillImagePixelHeight" : null,
-            "fillImagePixelWidth" : null,
-            "fillImageResize" : "fill",
-            "fillType" : "color",
-            "guidesX" : [
-
-            ],
-            "guidesY" : [
-
-            ],
-            "height" : 391,
-            "heightType" : 0,
-            "id" : "WVu9igWum",
-            "intrinsicHeight" : null,
-            "intrinsicWidth" : null,
-            "isExternalMaster" : null,
-            "isMaster" : false,
-            "isTarget" : false,
-            "left" : 89,
-            "locked" : false,
-            "name" : null,
-            "navigationTarget" : null,
-            "navigationTransition" : "push",
-            "navigationTransitionBackdropColor" : "rgba(4,4,15,.4)",
-            "navigationTransitionDirection" : "left",
-            "opacity" : 1,
-            "originalid" : null,
-            "parentid" : "kDo3qpGg7",
-            "previewSettings" : null,
-            "radius" : 0,
-            "radiusBottomLeft" : 0,
-            "radiusBottomRight" : 0,
-            "radiusIsRelative" : false,
-            "radiusPerCorner" : false,
-            "radiusTopLeft" : 0,
-            "radiusTopRight" : 0,
-            "replicaInfo" : null,
-            "right" : null,
-            "rotation" : 0,
-            "top" : 64,
-            "visible" : true,
-            "width" : 369,
-            "widthType" : 0
-          }
-        ],
-        "clip" : true,
-        "codeOverrideEnabled" : false,
-        "constraintsLocked" : false,
-        "deviceType" : null,
-        "exportOptions" : [
-
-        ],
-        "fillColor" : "white",
-        "fillEnabled" : true,
-        "fillImage" : null,
-        "fillImagePixelHeight" : null,
-        "fillImagePixelWidth" : null,
-        "fillImageResize" : "fill",
-        "fillType" : "color",
-        "guidesX" : [
-
-        ],
-        "guidesY" : [
-
-        ],
-        "height" : 600,
-        "heightType" : 0,
-        "id" : "kDo3qpGg7",
-        "intrinsicHeight" : null,
-        "intrinsicWidth" : null,
-        "isExternalMaster" : null,
-        "isMaster" : false,
-        "isTarget" : false,
-        "left" : 27,
-        "locked" : false,
-        "name" : null,
-        "navigationTarget" : null,
-        "navigationTransition" : "push",
-        "navigationTransitionBackdropColor" : "rgba(4,4,15,.4)",
-        "navigationTransitionDirection" : "left",
-        "opacity" : 1,
-        "originalid" : null,
-        "parentid" : "gFIVXwR1h",
-        "previewSettings" : {
-          "__class" : "PreviewSettings",
-          "bezel" : false,
-          "deviceType" : null,
-          "responsive" : true,
-          "rotate" : false,
-          "touch" : false,
-          "zoom" : -1
-        },
-        "radius" : 0,
-        "radiusBottomLeft" : 0,
-        "radiusBottomRight" : 0,
-        "radiusIsRelative" : false,
-        "radiusPerCorner" : false,
-        "radiusTopLeft" : 0,
-        "radiusTopRight" : 0,
-        "replicaInfo" : null,
-        "right" : null,
-        "rotation" : 0,
-        "top" : 70,
-        "visible" : true,
-        "width" : 600,
-        "widthType" : 0
-      },
-      {
-        "__class" : "FrameNode",
-        "aspectRatio" : null,
-        "blendingEnabled" : 0,
-        "blendingMode" : "normal",
-        "bottom" : null,
-        "centerAnchorX" : 0,
-        "centerAnchorY" : 0,
-        "children" : [
-
-        ],
-        "clip" : true,
-        "codeOverrideEnabled" : false,
-        "constraintsLocked" : false,
-        "deviceType" : null,
-        "exportOptions" : [
-
-        ],
-        "fillColor" : "rgba(255,255,255,1)",
-        "fillEnabled" : true,
-        "fillImage" : null,
-        "fillImagePixelHeight" : null,
-        "fillImagePixelWidth" : null,
-        "fillImageResize" : "fill",
-        "fillType" : "color",
-        "guidesX" : [
-
-        ],
-        "guidesY" : [
-
-        ],
-        "height" : 600,
-        "heightType" : 0,
-        "id" : "uZOEcFKrx",
-        "intrinsicHeight" : null,
-        "intrinsicWidth" : null,
-        "isExternalMaster" : null,
-        "isMaster" : false,
-        "isTarget" : false,
-        "left" : 862,
-        "locked" : false,
-        "name" : null,
-        "navigationTarget" : null,
-        "navigationTransition" : "push",
-        "navigationTransitionBackdropColor" : "rgba(4,4,15,.4)",
-        "navigationTransitionDirection" : "left",
-        "opacity" : 1,
-        "originalid" : null,
-        "parentid" : "gFIVXwR1h",
-        "previewSettings" : null,
-        "radius" : 0,
-        "radiusBottomLeft" : 0,
-        "radiusBottomRight" : 0,
-        "radiusIsRelative" : false,
-        "radiusPerCorner" : false,
-        "radiusTopLeft" : 0,
-        "radiusTopRight" : 0,
-        "replicaInfo" : null,
-        "right" : null,
-        "rotation" : 0,
-        "top" : -164,
-        "visible" : true,
-        "width" : 600,
-        "widthType" : 0
-      },
-      {
-        "__class" : "FrameNode",
-        "aspectRatio" : null,
-        "blendingEnabled" : 0,
-        "blendingMode" : "normal",
-        "bottom" : null,
-        "centerAnchorX" : 0,
-        "centerAnchorY" : 0,
-        "children" : [
-          {
             "__class" : "CodeComponentNode",
             "aspectRatio" : null,
             "bottom" : 0,
@@ -226,7 +21,7 @@
 
             ],
             "clip" : true,
-            "codeComponentIdentifier" : ".\/Starter.tsx_StarterSketch",
+            "codeComponentIdentifier" : ".\/StarterSketch.tsx_StarterSketch",
             "codeComponentProps" : {
 
             },
@@ -234,14 +29,7 @@
             "constraintsLocked" : false,
             "deviceType" : null,
             "exportOptions" : [
-              {
-                "__class" : "ExportOptions",
-                "enabled" : false,
-                "nameExtension" : "",
-                "nameExtensionMode" : "Suffix",
-                "scale" : 1,
-                "type" : "png"
-              }
+
             ],
             "fillColor" : "rgba(255,255,255,1)",
             "fillEnabled" : false,
@@ -252,7 +40,7 @@
             "fillType" : "color",
             "height" : 600,
             "heightType" : 0,
-            "id" : "wOyeBvTfs",
+            "id" : "PAnIdNuvC",
             "intrinsicHeight" : 1000,
             "intrinsicWidth" : 1000,
             "left" : null,
@@ -305,7 +93,7 @@
         "isExternalMaster" : null,
         "isMaster" : false,
         "isTarget" : false,
-        "left" : 2718,
+        "left" : 2780,
         "locked" : false,
         "name" : null,
         "navigationTarget" : null,
@@ -326,7 +114,7 @@
         "replicaInfo" : null,
         "right" : null,
         "rotation" : 0,
-        "top" : -343,
+        "top" : -385,
         "visible" : true,
         "width" : 600,
         "widthType" : 0
@@ -359,7 +147,7 @@
 
                 ],
                 "clip" : true,
-                "codeComponentIdentifier" : ".\/Starter.tsx_StarterSketch",
+                "codeComponentIdentifier" : ".\/StarterSketch.tsx_StarterSketch",
                 "codeComponentProps" : {
 
                 },
@@ -378,9 +166,9 @@
                 "fillType" : "color",
                 "height" : 600,
                 "heightType" : 0,
-                "id" : "xlYeKzUTV",
-                "intrinsicHeight" : 1000,
-                "intrinsicWidth" : 1000,
+                "id" : "rZFRMnz_d",
+                "intrinsicHeight" : 500,
+                "intrinsicWidth" : 500,
                 "left" : 0,
                 "locked" : false,
                 "name" : null,
@@ -452,115 +240,6 @@
             "replicaInfo" : null,
             "right" : 0,
             "rotation" : -180,
-            "top" : 0,
-            "visible" : true,
-            "width" : 375,
-            "widthType" : 0
-          },
-          {
-            "__class" : "FrameNode",
-            "aspectRatio" : null,
-            "blendingEnabled" : 0,
-            "blendingMode" : "normal",
-            "bottom" : 0,
-            "centerAnchorX" : 0.5,
-            "centerAnchorY" : 0.5,
-            "children" : [
-
-            ],
-            "clip" : false,
-            "codeOverrideEnabled" : false,
-            "constraintsLocked" : false,
-            "deviceType" : null,
-            "exportOptions" : [
-              {
-                "__class" : "ExportOptions",
-                "enabled" : false,
-                "nameExtension" : "",
-                "nameExtensionMode" : "Suffix",
-                "scale" : 1,
-                "type" : "png"
-              }
-            ],
-            "fillColor" : "rgba(0, 153, 255, 0.5)",
-            "fillEnabled" : true,
-            "fillImage" : null,
-            "fillImagePixelHeight" : null,
-            "fillImagePixelWidth" : null,
-            "fillImageResize" : "fill",
-            "fillLinearGradient" : {
-              "__class" : "LinearGradient",
-              "alpha" : 1,
-              "angle" : 180,
-              "stops" : [
-                {
-                  "__class" : "GradientColorStop",
-                  "position" : 0,
-                  "value" : "rgba(0, 0, 0, 0)"
-                },
-                {
-                  "__class" : "GradientColorStop",
-                  "position" : 1,
-                  "value" : "hsl(0, 0%, 0%)"
-                }
-              ]
-            },
-            "fillRadialGradient" : {
-              "__class" : "RadialGradient",
-              "alpha" : 1,
-              "centerAnchorX" : 0.5,
-              "centerAnchorY" : 0.5,
-              "heightFactor" : 0.5,
-              "stops" : [
-                {
-                  "__class" : "GradientColorStop",
-                  "position" : 0,
-                  "value" : "rgba(0, 0, 0, 0)"
-                },
-                {
-                  "__class" : "GradientColorStop",
-                  "position" : 1,
-                  "value" : "hsl(0, 0%, 0%)"
-                }
-              ],
-              "widthFactor" : 0.5
-            },
-            "fillType" : "linear-gradient",
-            "guidesX" : [
-
-            ],
-            "guidesY" : [
-
-            ],
-            "height" : 812,
-            "heightType" : 0,
-            "id" : "BQZbTgrCq",
-            "intrinsicHeight" : null,
-            "intrinsicWidth" : null,
-            "isExternalMaster" : null,
-            "isMaster" : false,
-            "isTarget" : false,
-            "left" : 0,
-            "locked" : false,
-            "name" : null,
-            "navigationTarget" : null,
-            "navigationTransition" : "push",
-            "navigationTransitionBackdropColor" : "rgba(4,4,15,.4)",
-            "navigationTransitionDirection" : "left",
-            "opacity" : 1,
-            "originalid" : null,
-            "parentid" : "FXySoiOx4",
-            "previewSettings" : null,
-            "radius" : 0,
-            "radiusBottomLeft" : 0,
-            "radiusBottomRight" : 0,
-            "radiusIsRelative" : false,
-            "radiusPerCorner" : false,
-            "radiusTopLeft" : 0,
-            "radiusTopRight" : 0,
-            "replicaInfo" : null,
-            "right" : 0,
-            "rotation" : -360,
             "top" : 0,
             "visible" : true,
             "width" : 375,

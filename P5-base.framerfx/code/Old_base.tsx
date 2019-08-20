@@ -1,6 +1,7 @@
 import * as React from "react"
 import { useRef, useEffect } from "react"
-import { Frame, RenderTarget } from "framer"
+import { Frame, addPropertyControls, ControlType, RenderTarget } from "framer"
+import * as Overrides from "./App"
 import * as p5 from "p5"
 
 const defaultSketch = {
@@ -16,7 +17,7 @@ const defaultSketch = {
 function P5Wrapper(props) {
     const { sketch = defaultSketch } = props
     const wrapperEl = useRef()
-    const sketchInstance = useRef<p5>(null)
+    const sketchInstance = useRef()
 
     const helpers = {
         height: props.height,
