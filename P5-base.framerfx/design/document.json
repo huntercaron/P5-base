@@ -220,7 +220,7 @@
             "__class" : "CodeComponentNode",
             "aspectRatio" : null,
             "bottom" : 0,
-            "centerAnchorX" : 0.5,
+            "centerAnchorX" : 0.53416666666666668,
             "centerAnchorY" : 0.5,
             "children" : [
 
@@ -234,7 +234,14 @@
             "constraintsLocked" : false,
             "deviceType" : null,
             "exportOptions" : [
-
+              {
+                "__class" : "ExportOptions",
+                "enabled" : false,
+                "nameExtension" : "",
+                "nameExtensionMode" : "Suffix",
+                "scale" : 1,
+                "type" : "png"
+              }
             ],
             "fillColor" : "rgba(255,255,255,1)",
             "fillEnabled" : false,
@@ -248,7 +255,7 @@
             "id" : "wOyeBvTfs",
             "intrinsicHeight" : 1000,
             "intrinsicWidth" : 1000,
-            "left" : 0,
+            "left" : null,
             "locked" : false,
             "name" : null,
             "opacity" : 1,
@@ -262,11 +269,11 @@
             "radiusPerCorner" : false,
             "radiusTopLeft" : 0,
             "radiusTopRight" : 0,
-            "right" : 0,
+            "right" : 97,
             "rotation" : 0,
             "top" : 0,
             "visible" : true,
-            "width" : 600,
+            "width" : 365,
             "widthType" : 0
           }
         ],
@@ -466,7 +473,14 @@
             "constraintsLocked" : false,
             "deviceType" : null,
             "exportOptions" : [
-
+              {
+                "__class" : "ExportOptions",
+                "enabled" : false,
+                "nameExtension" : "",
+                "nameExtensionMode" : "Suffix",
+                "scale" : 1,
+                "type" : "png"
+              }
             ],
             "fillColor" : "rgba(0, 153, 255, 0.5)",
             "fillEnabled" : true,

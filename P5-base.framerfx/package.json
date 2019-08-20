@@ -18,5 +18,5 @@
 		"react-p5-wrapper": "^2.0.0"
 	},
 	"name": "@framer/hunterc.p5-base",
-	"version": "1.4.0"
+	"version": "1.5.0"
 }

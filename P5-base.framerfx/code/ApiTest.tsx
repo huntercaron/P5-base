@@ -5,6 +5,9 @@ import { transform, Color } from "framer"
 const canvasSize = 1000
 const gridSize = 40
 
+
+
+
 const sketch = {
     setup: (s, { width, height }) => {
         s.createCanvas(width, height)

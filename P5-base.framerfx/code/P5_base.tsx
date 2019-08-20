@@ -1,14 +1,8 @@
 import * as React from "react"
 import { useRef, useEffect } from "react"
-import {
-    Frame,
-    addPropertyControls,
-    ControlType,
-    Color,
-    RenderTarget,
-} from "framer"
+import { Frame, addPropertyControls, ControlType, RenderTarget } from "framer"
 import * as Overrides from "./App"
-import p5 = require("p5")
+import * as p5 from "p5"
 
 const defaultSketch = {
     setup: s => {
@@ -25,8 +19,25 @@ function P5Wrapper(props) {
     const wrapperEl = useRef()
     const sketchInstance = useRef()
 
+    console.log(props.height)
+
+    const helpers = {
+        height: props.height,
+        width: props.width,
+    }
+
+    const composedSketch = (s: p5) => {
+        s.setup = () => {
+            sketch.setup(s, helpers)
+        }
+        s.draw = () => {
+            sketch.draw(s, helpers)
+            if (RenderTarget.current() === RenderTarget.canvas) s.noLoop()
+        }
+    }
+
     const addSketch = () => {
-        sketchInstance.current = new p5(sketch, wrapperEl.current)
+        sketchInstance.current = new p5(composedSketch, wrapperEl.current)
     }
 
     const removeSketch = () => {
@@ -40,30 +51,16 @@ function P5Wrapper(props) {
         return () => removeSketch()
     })
 
-    return <div ref={wrapperEl} />
-}
-
-function P5BaseCore(props) {
-    const { sketch = defaultSketch } = props
-    const composedSketch = s => {
-        s.setup = () => {
-            sketch.setup(s)
-        }
-        s.draw = () => {
-            sketch.draw(s)
-            if (RenderTarget.current() === RenderTarget.canvas) s.noLoop()
-        }
-    }
     return (
         <Frame {...props}>
-            <P5Wrapper sketch={composedSketch} />
+            <div ref={wrapperEl} />
         </Frame>
     )
 }
 
-export const P5Base = React.memo(P5BaseCore)
+export const P5Base = React.memo(P5Wrapper)
 
-P5BaseCore.defaultProps = {
+P5Wrapper.defaultProps = {
     width: 600,
     height: 600,
     backgroundColor: "transparent",
